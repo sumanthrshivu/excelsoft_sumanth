@@ -1,4 +1,4 @@
-# Assignmnet 1
+# Assignment 1
 - here the they have showed actual risk system and how it works and what needs to get updated for new risk system
 - actual financial risk system either makes money or loses it depending upon stocks ups and downs and does the trade calculations.
 - they have tds and rds for maintaining trades made by bank with file based xml for export on network share and for reference data about counterparties, bank etc.
