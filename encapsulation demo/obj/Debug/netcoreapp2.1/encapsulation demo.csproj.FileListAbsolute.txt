@@ -1,0 +1,11 @@
+F:\c# training\encapsulation demo\encapsulation demo\bin\Debug\netcoreapp2.1\encapsulation demo.deps.json
+F:\c# training\encapsulation demo\encapsulation demo\bin\Debug\netcoreapp2.1\encapsulation demo.runtimeconfig.json
+F:\c# training\encapsulation demo\encapsulation demo\bin\Debug\netcoreapp2.1\encapsulation demo.runtimeconfig.dev.json
+F:\c# training\encapsulation demo\encapsulation demo\bin\Debug\netcoreapp2.1\encapsulation demo.dll
+F:\c# training\encapsulation demo\encapsulation demo\bin\Debug\netcoreapp2.1\encapsulation demo.pdb
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.csprojAssemblyReference.cache
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.csproj.CoreCompileInputs.cache
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.AssemblyInfoInputs.cache
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.AssemblyInfo.cs
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.dll
+F:\c# training\encapsulation demo\encapsulation demo\obj\Debug\netcoreapp2.1\encapsulation demo.pdb
