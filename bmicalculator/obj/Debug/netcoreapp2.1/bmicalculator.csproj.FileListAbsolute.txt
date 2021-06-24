@@ -1,0 +1,11 @@
+F:\c# training\bmicalculator\bmicalculator\bin\Debug\netcoreapp2.1\bmicalculator.deps.json
+F:\c# training\bmicalculator\bmicalculator\bin\Debug\netcoreapp2.1\bmicalculator.runtimeconfig.json
+F:\c# training\bmicalculator\bmicalculator\bin\Debug\netcoreapp2.1\bmicalculator.runtimeconfig.dev.json
+F:\c# training\bmicalculator\bmicalculator\bin\Debug\netcoreapp2.1\bmicalculator.dll
+F:\c# training\bmicalculator\bmicalculator\bin\Debug\netcoreapp2.1\bmicalculator.pdb
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.csprojAssemblyReference.cache
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.csproj.CoreCompileInputs.cache
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.AssemblyInfoInputs.cache
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.AssemblyInfo.cs
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.dll
+F:\c# training\bmicalculator\bmicalculator\obj\Debug\netcoreapp2.1\bmicalculator.pdb
