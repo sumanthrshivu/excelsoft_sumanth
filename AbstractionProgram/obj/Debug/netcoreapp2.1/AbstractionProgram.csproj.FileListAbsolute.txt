@@ -1,0 +1,11 @@
+F:\c# training\AbstractionProgram\AbstractionProgram\bin\Debug\netcoreapp2.1\AbstractionProgram.deps.json
+F:\c# training\AbstractionProgram\AbstractionProgram\bin\Debug\netcoreapp2.1\AbstractionProgram.runtimeconfig.json
+F:\c# training\AbstractionProgram\AbstractionProgram\bin\Debug\netcoreapp2.1\AbstractionProgram.runtimeconfig.dev.json
+F:\c# training\AbstractionProgram\AbstractionProgram\bin\Debug\netcoreapp2.1\AbstractionProgram.dll
+F:\c# training\AbstractionProgram\AbstractionProgram\bin\Debug\netcoreapp2.1\AbstractionProgram.pdb
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.csprojAssemblyReference.cache
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.csproj.CoreCompileInputs.cache
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.AssemblyInfoInputs.cache
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.AssemblyInfo.cs
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.dll
+F:\c# training\AbstractionProgram\AbstractionProgram\obj\Debug\netcoreapp2.1\AbstractionProgram.pdb
