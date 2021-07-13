@@ -1,0 +1,6 @@
+F:\c# training\BmiCalculationLibApp\ModelsLib\bin\Debug\ModelsLib.dll
+F:\c# training\BmiCalculationLibApp\ModelsLib\bin\Debug\ModelsLib.pdb
+F:\c# training\BmiCalculationLibApp\ModelsLib\obj\Debug\ModelsLib.csproj.CoreCompileInputs.cache
+F:\c# training\BmiCalculationLibApp\ModelsLib\obj\Debug\ModelsLib.dll
+F:\c# training\BmiCalculationLibApp\ModelsLib\obj\Debug\ModelsLib.pdb
+F:\c# training\BmiCalculationLibApp\ModelsLib\obj\Debug\ModelsLib.csprojAssemblyReference.cache

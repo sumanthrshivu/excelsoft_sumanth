@@ -1,0 +1,17 @@
+F:\c# training\BmiCalculationLibApp\UserInputLib\obj\Debug\UserInputLib.csprojAssemblyReference.cache
+F:\c# training\BmiCalculationLibApp\UserInputLib\obj\Debug\UserInputLib.csproj.CoreCompileInputs.cache
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\UserInputLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\UserInputLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\CalCulateBmiLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\ConsoleDisplayLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\CalCulateBmiLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\ConsoleDisplayLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\obj\Debug\UserInputLib.csproj.CopyComplete
+F:\c# training\BmiCalculationLibApp\UserInputLib\obj\Debug\UserInputLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\obj\Debug\UserInputLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\BmiValidateLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\BmiValidateLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\ModelsLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\PatientDetailsReadFromCsvLib.dll
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\ModelsLib.pdb
+F:\c# training\BmiCalculationLibApp\UserInputLib\bin\Debug\PatientDetailsReadFromCsvLib.pdb

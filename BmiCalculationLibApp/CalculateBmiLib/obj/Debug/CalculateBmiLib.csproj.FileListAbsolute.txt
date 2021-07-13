@@ -1,0 +1,5 @@
+F:\c# training\BmiCalculationLibApp\CalculateBmiLib\bin\Debug\CalculateBmiLib.dll
+F:\c# training\BmiCalculationLibApp\CalculateBmiLib\bin\Debug\CalculateBmiLib.pdb
+F:\c# training\BmiCalculationLibApp\CalculateBmiLib\obj\Debug\CalculateBmiLib.csproj.CoreCompileInputs.cache
+F:\c# training\BmiCalculationLibApp\CalculateBmiLib\obj\Debug\CalculateBmiLib.dll
+F:\c# training\BmiCalculationLibApp\CalculateBmiLib\obj\Debug\CalculateBmiLib.pdb

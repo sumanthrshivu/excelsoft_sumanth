@@ -1,0 +1,8 @@
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\bin\Debug\PatientDetailsReadFromCsvLib.dll
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\bin\Debug\PatientDetailsReadFromCsvLib.pdb
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\bin\Debug\ModelsLib.dll
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\bin\Debug\ModelsLib.pdb
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\obj\Debug\PatientDetailsReadFromCsvLib.csproj.CoreCompileInputs.cache
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\obj\Debug\PatientDetailsReadFromCsvLib.csproj.CopyComplete
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\obj\Debug\PatientDetailsReadFromCsvLib.dll
+F:\c# training\BmiCalculationLibApp\PatientDetailsReadFromCsvLib\obj\Debug\PatientDetailsReadFromCsvLib.pdb
