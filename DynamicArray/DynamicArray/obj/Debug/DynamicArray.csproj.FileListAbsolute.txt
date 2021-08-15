@@ -1,7 +1,0 @@
-c:\users\admin\onedrive\documents\visual studio 2015\Projects\DynamicArray\DynamicArray\bin\Debug\DynamicArray.exe.config
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\bin\Debug\DynamicArray.exe
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\bin\Debug\DynamicArray.pdb
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.exe
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.pdb
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csprojAssemblyReference.cache
-C:\Users\ADMIN\OneDrive\Documents\Visual Studio 2015\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csproj.CoreCompileInputs.cache
