@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,10 +13,10 @@ namespace BmiCalculatorApp
             weight = Convert.ToInt32(ConsoleDisplay.ReadFromConsole());
             while (weight <= 0)
             {
-                ConsoleDisplay.WriteFromConsole("Please enter the weight above zero");
+                ConsoleDisplay.WriteFromConsole($"{weight} is not a proper weight,Please enter the weight above zero");
                 ConsoleDisplay.WriteFromConsole("-------------------------------------");
                 weight = GetUserWeight();
-            }
+            } 
             return weight;
         }
 
@@ -27,7 +27,7 @@ namespace BmiCalculatorApp
             height = Convert.ToDouble(ConsoleDisplay.ReadFromConsole());
             while (height <= 0)
             {
-                ConsoleDisplay.WriteFromConsole("Please enter the Height above zero");
+                ConsoleDisplay.WriteFromConsole($"{height} is not a proper height,Please enter the Height above zero");
                 ConsoleDisplay.WriteFromConsole("-------------------------------------");
                 height = GetUserHeight();
             }
