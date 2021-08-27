@@ -16,8 +16,7 @@
         <label>Dob:</label>
         < asp:Calendar ID="Calendar1" runat="server"></asp:Calendar><br />
       < asp:Button ID="Button2" runat="server" Text="Submit" PostBackUrl="~/page2.aspx" /><br/>
-    </form>
-    </html><br />
+    </form><br />
    page2.aspx<br>
     < asp:Label ID="Label1" runat="server" Text="Label"></asp:Label><br />
     
@@ -56,9 +55,24 @@
         {<br />
             try{}<br/>
             catch(Exception ex){<br />
-            Server.Transer("page2.aspx"); <br />
+            Server.Transer("page2.aspx"); //browser url does not change<br />
             Response.Write("hello"); // this line won't execute unless its bool value set to false<br />
             }<br />
-        } 
+        } <br />
+          page2.aspx<br />
+          Server.Transer("www.google.com"); //Arguement Exception
         
----        
+---      
+## Server.Execute
+* It is similar to server.transfer but has a different behavior when doing the process
+* here codes that are present after Server.Execute will  be executed since it process the page2 without terminating the page1<br />
+**Example:**
+   __page1.aspx__ <br />
+ protected void Button1_Click(object sender, EventArgs e)<br />
+        {<br />
+        try{}<br/>
+            catch(Exception ex){<br />
+            Server.Execute("Page2.aspx");now the page2.aspx will execute<br />
+            Response.Write("Two"); now this line will be executed after the completion of Server.Execute<br />
+             }<br />
+        }
