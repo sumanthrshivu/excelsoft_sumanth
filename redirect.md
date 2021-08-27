@@ -42,6 +42,21 @@
             try{}<br/>
             catch(Exception ex){<br />
             Response.Redirect("page2.aspx"); // now the page2.aspx will execute<br />
-            Response.Write("two"); // this line won't execute unless its bool value set to false<br />
+            Response.Write("hello"); // this line won't execute unless its bool value set to false<br />
             }<br />
         }
+        
+---
+## Server.Transer
+* It transfers a current page request to another .aspx page on the same server.
+* server.transfer is fast compare to response.redirect.
+       **Example:**
+   __page1.aspx__ <br />
+        protected void Button1_Click(object sender, EventArgs e)<br />
+        {<br />
+            try{}<br/>
+            catch(Exception ex){<br />
+            Server.Transer("page2.aspx"); <br />
+            Response.Write("hello"); // this line won't execute unless its bool value set to false<br />
+            }<br />
+        } 
