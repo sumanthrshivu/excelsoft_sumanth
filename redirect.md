@@ -49,7 +49,7 @@
 ---
 ## Server.Transer
 * It transfers a current page request to another .aspx page on the same server.
-* server.transfer is fast compare to response.redirect.
+* server.transfer is fast compare to response.redirect.<br/>
        **Example:**
    __page1.aspx__ <br />
         protected void Button1_Click(object sender, EventArgs e)<br />
@@ -60,3 +60,5 @@
             Response.Write("hello"); // this line won't execute unless its bool value set to false<br />
             }<br />
         } 
+        
+---        
