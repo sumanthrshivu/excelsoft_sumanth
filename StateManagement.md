@@ -111,15 +111,103 @@ namespace HiddenField
 ```
 ---
 
- *  **Cookies** : is a small piece of information stored on the client machine. This file is located on client machines path.  
+  ### Cookies  :
+  * It is a small piece of information stored on the client machine. This file is located on client machines path.  
     Its is used to store user preference information like Username, Password,City and PhoneNo etc on client machines.<br/>
     **1.Persistant Cookie :** A cookie has not have expired time Which is called as Persist Cookie<br />
-    **2.Non-Persist Cookie :** A cookie has expired time Which is called as Non-Persist Cookie.
-     ```C#
-     
- *  **Control State** : Used for enabling the View State Property,It defines a custom view and it Can't be modified,It can Accessed directly or disabled. 
- *  **Query String** : A query string is one of the techniques in Web applications to send data from one webform to another through the URL.
- 
+    **2.Non-Persist Cookie :** A cookie has expired time Which is called as Non-Persist Cookie.<br />
+    **Example : WebForm1.aspx**
+```C#
+     <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudentCookie.aspx.cs" Inherits="Cookies.Persistent" %>
+      <!DOCTYPE html>
+      <head runat="server">
+        <title></title>
+      </head>
+     <body>
+     <form id="form1" runat="server">
+        <div>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" /><br />
+           fetched cookie: <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        </div>
+     </form>
+    </body>
+   </html>   
+```
+**WebForm1.aspx.cs**
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Cookies
+{
+    public partial class Persistent : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            HttpCookie co_Val = Request.Cookies["student"];
+            if (co_Val != null)
+            {
+                Label1.Text = co_Val["name"];
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            HttpCookie cookie = new HttpCookie("student");
+
+            cookie["name"] = TextBox1.Text;
+            cookie.Expires = DateTime.Now.AddDays(5);//persistent cookie
+            Response.Cookies.Add(cookie);
+        }
+    }
+}
+
+
+```
+---
+
+ *  **Control State** : Used for enabling the View State Property,It defines a custom control(Load Control State & Save Control State) and it Can't be modified,
+                   It can Accessed directly or disabled. <br />
+  ### Query String : 
+  * It is one of the techniques in Web applications to send data from one webform to another through the URL.
+  * A query string consists of two parts, field and value, and each of pair separated by ampersand (&).<br />
+   **Example : WebForm1.aspx**
+```C#
+    <form id="form1" runat="server">
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    </form>
+```
+**WebForm1.aspx.cs**
+```C#
+ 	 protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?Name=" + TextBox1.Text);
+        }
+```  
+ **Example : WebForm2.aspx**
+```C#
+    <form id="form1" runat="server">
+        Name:<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </form>
+```
+**WebForm1.aspx.cs**
+```C#
+ 	 protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                if (Request.QueryString["Name"] != null && Request.QueryString["Name"] != string.Empty)
+                    Label1.Text = Request.QueryString["Name"];
+            }
+        }
+```  
+ ---
  # Server-Side StateManagement
  * **Session State** : Enables you to store and retrieve values for a user as the user navigates ASP.NET pages in a Web application.<br />
   **a**, **InProc mode:** which stores session state in memory on the Web server. This is the default.<br />
