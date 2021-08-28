@@ -71,7 +71,46 @@ namespace ViewState_Demo
 
  ### Hidden field : 
  * It is used for storing small amounts of data on the client side. In most simple words it's just a container of some
-    objects but their result is not rendered on our web browser. It is invisible in the browser.
+    objects but their result is not rendered on our web browser. It is invisible in the browser.<br /><br />
+    **Example : WebForm1.aspx**
+ ```C#
+ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DateHiddenValue.aspx.cs" Inherits="HiddenField.WebForm1" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="HiddenField1" runat="server" />
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </form>
+</body>
+</html>
+```
+**WebForm1.aspx.cs**
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace HiddenField
+{
+    public partial class WebForm1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            HiddenField1.Value = DateTime.Now.ToString();
+            Label1.Text = Convert.ToString(HiddenField1.Value);
+        }
+    }
+}
+```
+---
+
  *  **Cookies** : is a small piece of information stored on the client machine. This file is located on client machines path.  
     Its is used to store user preference information like Username, Password,City and PhoneNo etc on client machines.   
  *  **Control State** : Used for enabling the View State Property,It defines a custom view and it Can't be modified,It can Accessed directly or disabled. 
