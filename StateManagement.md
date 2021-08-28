@@ -112,7 +112,11 @@ namespace HiddenField
 ---
 
  *  **Cookies** : is a small piece of information stored on the client machine. This file is located on client machines path.  
-    Its is used to store user preference information like Username, Password,City and PhoneNo etc on client machines.   
+    Its is used to store user preference information like Username, Password,City and PhoneNo etc on client machines.<br/>
+    **1.Persistant Cookie :** A cookie has not have expired time Which is called as Persist Cookie<br />
+    **2.Non-Persist Cookie :** A cookie has expired time Which is called as Non-Persist Cookie.
+     ```C#
+     
  *  **Control State** : Used for enabling the View State Property,It defines a custom view and it Can't be modified,It can Accessed directly or disabled. 
  *  **Query String** : A query string is one of the techniques in Web applications to send data from one webform to another through the URL.
  
