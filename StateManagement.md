@@ -196,7 +196,7 @@ namespace Cookies
         Name:<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </form>
 ```
-**WebForm1.aspx.cs**
+**WebForm2.aspx.cs**
 ```C#
  	 protected void Page_Load(object sender, EventArgs e)
         {
@@ -211,9 +211,41 @@ namespace Cookies
  # Server-Side StateManagement
  * **Session State** : Enables you to store and retrieve values for a user as the user navigates ASP.NET pages in a Web application.<br />
   **a**, **InProc mode:** which stores session state in memory on the Web server. This is the default.<br />
+   **Example : WebForm1.aspx**
+```C#
+  <form id="form1" runat="server">
+       
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    </form>
+    protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+            Session["name"] = TextBox1.Text;
+            Response.Redirect("page2.aspx");
+        }
+ ```       
+  **WebForm2.aspx**
+```C#
+ <form id="form1" runat="server">
+          Name:  <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </form>
+    
+    protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Session["name"] != null)
+            {
+                Label1.Text = Session["name"].ToString();
+            }
+        }
+ ```      
   **b**, **StateServer mode:** which stores session state in a separate process called the ASP.NET state service. 
           This ensures that session state is preserved if the Web application is restarted and also makes session
           state available to multiple Web servers in a Web farm.<br />
+```C#
+    <sessionState mode="StateServer" stateConnectionString="tcpip=localhost:44389" timeout="20">
+    </sessionState>
+```    
   **c**, **SQLServer** : mode stores session state in a SQL Server database. This ensures that session state is preserved 
           if the Web application is restarted and also makes session state available to multiple Web servers in a Web farm(web application deployed on multiple server).<br />
  * **Application State** : which stores variables that can be accessed by all users of an ASP.NET application.
