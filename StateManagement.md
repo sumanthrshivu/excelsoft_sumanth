@@ -215,6 +215,6 @@ namespace Cookies
           This ensures that session state is preserved if the Web application is restarted and also makes session
           state available to multiple Web servers in a Web farm.<br />
   **c**, **SQLServer** : mode stores session state in a SQL Server database. This ensures that session state is preserved 
-          if the Web application is restarted and also makes session state available to multiple Web servers in a Web farm.<br />
+          if the Web application is restarted and also makes session state available to multiple Web servers in a Web farm(web application deployed on multiple server).<br />
  * **Application State** : which stores variables that can be accessed by all users of an ASP.NET application.
    
