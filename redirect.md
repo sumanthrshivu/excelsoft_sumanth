@@ -24,11 +24,14 @@
     
     protected void Page_Load(object sender, EventArgs e)
         {
-            TextBox textBox2; 
-            Calendar calendar2;
-            textBox2 = (TextBox)PreviousPage.FindControl("TextBox1");
-            calendar2 = (Calendar)PreviousPage.FindControl("Calendar1");
-            Label1.Text = "Hi" + "  " + textBox2.Text + "  " + "Dob is" + calendar2.SelectedDate.ToString();
+         if (PreviousPage != null && PreviousPage.IsCrossPagePostBack)
+            {
+               TextBox textBox2; 
+               Calendar calendar2;
+               textBox2 = (TextBox)PreviousPage.FindControl("TextBox1");
+               calendar2 = (Calendar)PreviousPage.FindControl("Calendar1");
+               Label1.Text = "Hi" + "  " + textBox2.Text + "  " + "Dob is" + calendar2.SelectedDate.ToString();
+            }
         }
  
 ---
